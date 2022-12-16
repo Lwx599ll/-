@@ -1,0 +1,1 @@
+INSERT INTO `user` VALUES(1,'lwx','1234',1,'男','sdau','17661293516','3558288768@qq.com');

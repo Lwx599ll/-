@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html
+        xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>管理员</title>
+    <link href="../../../static/css/header.css" rel="stylesheet" type="text/css" />
+    <link href="../../../static/css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="../../../static/css/footer.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!-- 页面顶部-->
+<div th:replace="~{/fragment/header :: header}"></div>
+<div style="width: auto; margin-top: 150px; margin-left: 300px">
+    <a th:href="@{/users/listUser}" th:text="'用户管理'" style="font-size: 40px"></a><br>
+    <a th:href="@{/games/addGame}" th:text="'添加比赛'" style="font-size: 40px"></a><br>
+</div>
+</body>
+</html>
